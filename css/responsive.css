@@ -1,0 +1,576 @@
+@media only screen and (max-width:384px) {
+    ul.banner-tabs li {
+        font-size: 7px!important;
+        margin: 0px 6px!important;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    ul.banner-tabs li {
+        font-size: 7px!important;
+        margin: 0px 5px!important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .overlay img {
+        width: 30%!important;
+        margin: 34px 0px!important;
+    }
+    .team-member img {
+        display: inline-block
+    }
+    .bottom-footer4 p {
+        text-align: center;
+        margin: 10px auto;
+        width: 80%
+    }
+    .banner-app {
+        padding-top: 100px
+    }
+    .bottom-footer3 p {
+        text-align: center
+    }
+    .text-color h3 {
+        font-size: 40px
+    }
+    .pricing {
+        padding: 50px 0px
+    }
+    .hreing {
+        margin: 50px 0px
+    }
+    iframe {
+        height: 300px
+    }
+    .left-text {
+        padding-left: 10px
+    }
+    .footer-bottom1 .footer-logo-text {
+        text-align: center
+    }
+    .footer-logo {
+        margin-bottom: 30px
+    }
+    .bottom-dark .footer-logo-text {
+        margin-top: 50px
+    }
+    .desktop-img img {
+        width: 100%
+    }
+    .footer-logo {
+        text-align: center
+    }
+    .card-tab-image {
+        background-size: 100%;
+        margin-bottom: 0px;
+        height: 40px
+    }
+    ul.banner-tabs li.active .card-tab-image,
+    ul.banner-tabs li:hover .card-tab-image {
+        background-size: 100%;
+        margin-bottom: 0px;
+        height: 40px
+    }
+    ul.banner-tabs li {
+        padding: 0px
+    }
+    ul.banner-tabs li:hover {
+        padding-bottom: 0px
+    }
+    ul.banner-tabs li.active .card-tab1,
+    ul.banner-tabs li:hover .card-tab1,
+    .card-tab1 {
+        background-size: 70%;
+    }
+    ul.banner-tabs li.active .card-tab3,
+    ul.banner-tabs li:hover .card-tab3,
+    .card-tab3 {
+        background-size: 70%
+    }
+    ul.banner-tabs li.active .card-tab4,
+    ul.banner-tabs li:hover .card-tab4,
+    .card-tab4 {
+        background-size: 70%
+    }
+    ul.banner-tabs li.active .card1,
+    ul.banner-tabs li:hover .card1,
+    .card1 {
+        background-size: 70%;
+    }
+    ul.banner-tabs li.active .card3,
+    ul.banner-tabs li:hover .card3,
+    .card3 {
+        background-size: 70%
+    }
+    ul.banner-tabs li.active .card4,
+    ul.banner-tabs li:hover .card4,
+    .card4 {
+        background-size: 70%
+    }
+    .navigation .navbar {
+        padding: 0px
+    }
+    .card img {
+        height: 30px;
+        width: 30px
+    }
+    .timeline-marker:after {
+        height: 450px
+    }
+    .desktop-img {
+        margin-top: -100px
+    }
+    .desktop-mobile-app {
+        margin-top: 0px
+    }
+    .bg-section {
+        padding-left: 0px
+    }
+    .sooper-text h4,
+    .nav-pagination1 {
+        text-align: center
+    }
+    .footer-logo-text {
+        text-align: center;
+        margin-bottom: 20px
+    }
+    .main-3-section {
+        text-align: center
+    }
+    .card {
+        margin-bottom: 0px
+    }
+    ul.banner-tabs li.active {
+        padding-bottom: 0px
+    }
+    .tab_content {
+        margin-top: 15px
+    }
+    ul.banner-tabs li {
+        font-size: 7px;
+        margin: 0px 5px
+    }
+    #carousel-example-generic .carousel-control {
+        padding: 0px;
+        height: 36px;
+        width: 36px;
+        border: 2px solid;
+        padding-top: 1px;
+    }
+    .forms .form-group {
+        width: 100%
+    }
+    .headbetter {
+        padding-left: 10px
+    }
+    .section-color-div-footer {
+        padding-bottom: 50px
+    }
+    .footer-div1 {
+        text-align: center
+    }
+    .logo-footer2 {
+        text-align: center
+    }
+    .logo-footer2 img {
+        display: inline-block
+    }
+    .footer-bottom1 p {
+        margin: 20px auto;
+        width: 80%;
+        line-height: 24px
+    }
+    .footer-bottom {
+        padding-top: 62px;
+        background: url(../image/footer-bottom.png);
+        background-position: bottom;
+        background-size: cover
+    }
+    .footer-bottom1 {
+        padding-top: 0px
+    }
+    .right-text h4 {
+        font-size: 15px
+    }
+    .right-text h4 img {
+        height: 30px;
+        width: 30px
+    }
+    .desktop {
+        padding-top: 100px;
+        height: 460px;
+    }
+    .soft-heading h3 {
+        font-size: 30px
+    }
+    .hraing1 {
+        margin: 0
+    }
+    .work-text {
+        padding: 0px 20px
+    }
+    .read {
+        margin-top: 0px
+    }
+    .feature {
+        margin-top: 0
+    }
+    .navigation .button-right {
+        margin: 0px
+    }
+    .navigation .button-right {
+        margin-bottom: 10px
+    }
+    .navigation .navbar-toggle {
+        border: 1px solid #fb527a;
+        margin-top: 25px;
+    }
+    .main-navigation .navbar-toggle {
+        border: 1px solid #3a3161;
+        background: #3a3161
+    }
+    .navigation .icon-bar {
+        background-color: #fff;
+    }
+    .mobile-app-banner {
+        padding-top: 100px!important;
+        background-image: url(../image/banner.png);
+        background-size: cover;
+        padding-bottom: 0px;
+        background-repeat: no-repeat;
+    }
+    .mobile-app-banner-image img {
+        margin-top: 30px;
+    }
+    .mobile-app-banner-content h1 {
+        font-size: 26px!important;
+    }
+    .mobile-app-banner-image {
+        text-align: center;
+    }
+    .playstore h2 {
+        font-size: 26px;
+    }
+    .playstore p {
+        font-size: 18px;
+        margin-bottom: 0px;
+        padding-bottom: 5px
+    }
+    .app-store .apple {
+        font-size: 28px
+    }
+    .quest-text h4,
+    .quest-text p {
+        font-size: 14px
+    }
+    .mleft {
+        margin-left: 0px
+    }
+    .read {
+        padding: 0px 5px;
+    }
+    .footer-copyright {
+        background-image: url(../image/footer-image.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+    .footer-section-back {
+        padding-top: 0px;
+        padding-bottom: 0
+    }
+    .footer-logo img {
+        width: 100%;
+    }
+    .footer-copyright .playstore {
+        margin-bottom: 85px
+    }
+    .footer-text p {
+        font-size: 14px;
+        text-align: left;
+        line-height: 24px
+    }
+    .footer-text {
+        text-align: right;
+    }
+    .footer-text a:hover {
+        color: #fff;
+    }
+    .responsive2 .slick-dots {
+        display: none!important;
+    }
+    .buttons .btn {
+        padding: 12px 17px;
+        margin-right: 0
+    }
+    .buttons .btn:hover {
+        padding: 12px 17px;
+    }
+    .work-text h4 img {
+        float: left;
+    }
+    .work {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .unoorder {
+        text-align: center
+    }
+    .question,
+    .trust {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .question .quest-text {
+        margin-bottom: 30px;
+    }
+    .testimonial {
+        padding: 50px 0px;
+    }
+    .responsive2 {
+        text-align: center;
+    }
+    .responsive2 .slick-slide img {
+        display: inline-block!important;
+    }
+    .social {
+        margin-bottom: 30px;
+    }
+    .footer {
+        padding: 50px 0px 0px;
+    }
+    .hrline {
+        margin: 30px 0px;
+    }
+    .icon {
+        color: #ffff;
+        font-size: 20px;
+        background-color: #fb527a;
+        border-radius: 60px;
+        padding: 19px 25px 19px 25px;
+    }
+    .navbar {
+        min-height: 35px;
+        padding-bottom: 0px!important;
+        transition: all 0.3s ease;
+        background: #20082a!important;
+        color: white;
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .overlay img {
+        width: 22%!important;
+        margin: 96px 0px!important;
+    }
+    .desk-trust ul li {
+        margin: 20px 14px 20px 14px
+    }
+    .desktop-mobile-app img {
+        width: 100%;
+    }
+    ul.banner-tabs li {
+        margin: 0px 4px
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .navigation .navbar-toggle {
+        border: 1px solid #C1E695;
+        margin-top: 25px;
+    }
+    .navigation .icon-bar {
+        background-color: #fff;
+    }
+    .mobile-app-banner {
+        background-image: url(../image/banner.png);
+        background-size: cover;
+        margin-bottom: 40px;
+        height: 900px;
+        background-repeat: no-repeat;
+    }
+    .mobile-app-banner-content h1 {
+        font-size: 26px!important;
+    }
+    .mobile-app-banner-image {
+        text-align: center;
+    }
+    .mobile-app-banner-image img {
+        margin-top: 30px;
+        width: 30%;
+    }
+    .playstore p {
+        font-size: 18px;
+    }
+    .read {
+        padding: 0px 5px;
+    }
+    .footer-copyright {
+        background-image: url(../image/footer-image.png);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+    .footer-section-back {
+        padding-top: 100px;
+    }
+    .footer-logo img {
+        width: 40%;
+    }
+    .footer-text p {
+        font-size: 11px;
+    }
+    .footer-text {
+        text-align: right;
+    }
+    /*.footer-text a{color:#8671a7;}*/
+    .social {
+        margin-bottom: 30px;
+    }
+    .question .quest-text {
+        margin-bottom: 30px;
+    }
+    .pricing-table .pricing-option {
+        padding: 5%;
+        width: 90%;
+    }
+    .pricing-table .pricing-option:nth-child(even) {
+        margin: 30px 0 !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .overlay img {
+        width: 22%!important;
+        margin: 109px 0px!important;
+    }
+    .main-3-section ul li.facebook-icon a {
+        padding: 6px 12px
+    }
+    .main-3-section ul li a {
+        padding: 6px 10px
+    }
+    .timeline-marker:after {
+        height: 350px
+    }
+    .feature {
+        margin-top: 0
+    }
+    .mobile-app-banner {
+        background-image: url(../image/banner.png);
+        background-size: cover;
+        margin-bottom: 40px;
+        background-repeat: no-repeat;
+    }
+    .mobile-app-banner-content h1 {
+        font-size: 50px;
+    }
+    .mobile-app-banner-image img {
+        padding-top: 0px;
+        margin-right: 0;
+        width: 100%
+    }
+    .navigation .button-right li a {
+        font-size: 10px;
+    }
+    .footer-section-back {
+        padding-top: 220px
+    }
+    .footer-copyright {
+        background-image: url(../image/footer-image.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+    .social {
+        margin-bottom: 30px;
+    }
+    .question .quest-text {
+        margin-bottom: 30px;
+    }
+    .navigation .menu-left li a {
+        font-size: 14px!important;
+    }
+    .timeline-split .timeline,
+    .timeline-centered .timeline {
+        display: table;
+    }
+    .timeline-split .timeline-item,
+    .timeline-centered .timeline-item {
+        display: table-row;
+        padding: 0;
+    }
+    .timeline-split .timeline-info,
+    .timeline-centered .timeline-info,
+    .timeline-split .timeline-marker,
+    .timeline-centered .timeline-marker,
+    .timeline-split .timeline-content,
+    .timeline-centered .timeline-content,
+    .timeline-split .period .timeline-info,
+    .timeline-centered .period .timeline-info {
+        display: table-cell;
+        vertical-align: top;
+    }
+    .timeline-split .timeline-marker,
+    .timeline-centered .timeline-marker {
+        position: relative;
+    }
+    .timeline-split .timeline-content,
+    .timeline-centered .timeline-content {
+        padding-left: 30px;
+    }
+    .timeline-split .timeline-info,
+    .timeline-centered .timeline-info {
+        padding-right: 30px;
+    }
+    .timeline-split .period .timeline-title,
+    .timeline-centered .period .timeline-title {
+        position: relative;
+        left: -45px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .overlay img {
+        width: 18%!important;
+        margin: 161px 0px!important;
+    }
+    .mobile-app-banner {
+        background-image: url(../image/banner.png);
+        background-size: cover;
+        margin-bottom: 40px;
+        height: 900px;
+        background-repeat: no-repeat;
+    }
+    .footer-copyright {
+        background-image: url(../image/footer-image.png);
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+}
+
+@media (max-width:1800px)and (min-width:1600px) {
+    .mobile-app-banner {
+        padding-bottom: 306px
+    }
+    .headbetter {
+        padding-left: 265px;
+    }
+}
+
+@media (max-width:1920px)and (min-width:1801px) {
+    .footer-section-back {
+        padding-top: 292px;
+    }
+    .mobile-app-banner {
+        padding-bottom: 465px
+    }
+    .headbetter {
+        padding-left: 385px;
+        padding-top: 100px
+    }
+}
