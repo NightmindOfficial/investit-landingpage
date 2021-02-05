@@ -278,7 +278,7 @@ a:hover {
 .overlay-image img {
     width: 100%;
     padding: 10px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .overlay-image:hover .overlay {
@@ -286,7 +286,7 @@ a:hover {
 }
 
 .overlay-image .overlay {
-    background: rgba(58, 49, 97, .75);
+    background: rgba(85, 255, 110, 0.75);
     border-radius: 4px;
     top: 10px;
     left: 10px;
