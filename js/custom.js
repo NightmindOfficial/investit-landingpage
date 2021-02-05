@@ -131,7 +131,10 @@ jQuery(document).ready(function () {
   * Video image
   * =====================================***/
    $('.video-img').on(function(){
-    var video = '<video width="100%" autoplay><source src="'+ $(this).attr('data-video') +'" type="video/mp4"></video>';
+    /** var video = '<video preload="none" width="100%" autoplay><source src="'+ $(this).attr('data-video') +'" type="video/mp4"></video>';
+     * Deprecated
+     **/
+    var video = '<video width="100%" autoplay><source src="trailer.mp4" type="video/mp4" /></video>';
     $(this).replaceWith(video);
    });
 
