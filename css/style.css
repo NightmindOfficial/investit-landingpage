@@ -902,7 +902,7 @@ a:hover {
 
 .team-border {
     border-right: 1px solid #ddd;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .about-overlay {
@@ -926,8 +926,17 @@ a:hover {
 }
 
 .team-member img {
-    width: 260px;
-    height: 260px
+    /* This fucker messes with the responsiveness
+       Who is responsible for this?!?!
+       I've spent three days trying to find this issue
+    
+       width: 260px;
+       height: 260px;
+
+    */
+
+    max-width: 260px;
+    max-height: 260px;
 }
 
 .team-member .main-3-section ul {
@@ -2187,7 +2196,8 @@ ul.banner-tabs li:hover .card4 {
     font-size: 15px;
 }
 
-.bottom-footer3 p a {
+.bottom-footer3 p a,
+.direct-link {
     color: #279E44;
     font-weight: 500;
     transition: all 0.4s ease;
@@ -2198,7 +2208,8 @@ ul.banner-tabs li:hover .card4 {
     transition: 0.4s;
 }
 
-.bottom-footer3 p a:hover {
+.bottom-footer3 p a:hover,
+.direct-link:hover {
     color: #303030;
     font-weight: 600;
     letter-spacing: 2px;
