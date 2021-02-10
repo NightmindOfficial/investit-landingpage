@@ -49,10 +49,10 @@ h4 {
 
 .navbar.scroll-nav {
     min-height: 35px;
-    padding-bottom: 0px!important;
-    padding-top: 0px!important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
     transition: all 0.3s ease;
-    background: var(--bgPrimary)!important;
+    background: var(--bgPrimary) !important;
     color: var(--pureWhite);
 }
 
@@ -162,7 +162,7 @@ iframe {
 }
 
 .navigation .menu-left {
-    display: inline-block!important;
+    display: inline-block !important;
 }
 
 .navigation .menu-left li a:hover {
@@ -204,7 +204,7 @@ iframe {
 .btn-pink {
     background-color: var(--bgPrimary);
     color: var(--pureWhite);
-    font-weight: 600!important;
+    font-weight: 600 !important;
     margin-right: 10px;
     font-size: 14px;
 }
@@ -212,7 +212,7 @@ iframe {
 .btn-blue {
     background-color: var(--secondaryGreen);
     color: var(--pureWhite);
-    font-weight: 600!important;
+    font-weight: 600 !important;
     font-size: 14px;
 }
 
@@ -265,7 +265,7 @@ a:hover {
 }
 
 .overlay img {
-    width: auto!important;
+    width: auto !important;
     margin: 209px 0px;
 }
 
@@ -319,7 +319,7 @@ a:hover {
 
 .buttons .btn-pink:hover,
 .buttons .btn-blue:hover {
-    color: #46356b!important;
+    color: #46356b !important;
 }
 
 .buttons .btn:hover {
@@ -549,7 +549,7 @@ a:hover {
 }
 
 .purple .fa {
-    color: #fff!important;
+    color: #fff !important;
     margin-top: -5px;
     padding: 6px 10px;
     background: #ab9dec;
@@ -736,7 +736,7 @@ a:hover {
 }
 
 .quest-text1 img {
-    display: inline-block!important;
+    display: inline-block !important;
 }
 
 .responsive2 .slick-slide:focus {
@@ -785,28 +785,28 @@ a:hover {
 }
 
 .testimonial .slick-dots li button {
-    background-color: #d6d3df!important;
+    background-color: #d6d3df !important;
     border-radius: 50px;
 }
 
 .testimonial .slick-dots li button:hover {
-    background-color: #3a3161!important;
+    background-color: #3a3161 !important;
     border-radius: 50px;
     transition: 0.4s;
 }
 
 .testimonial li.slick-active button {
-    background-color: #3a3161!important;
+    background-color: #3a3161 !important;
     border-radius: 50px;
     transition: 0.4s;
 }
 
 .border-hr {
-    border-top: 1px solid #ddd!important;
+    border-top: 1px solid #ddd !important;
 }
 
 .slick-dots li button:before {
-    color: transparent!important;
+    color: transparent !important;
 }
 
 .footer-text p {
@@ -960,7 +960,7 @@ a:hover {
 }
 
 .main-navigation .navbar-custom {
-    background-color: #f5f4f8!important;
+    background-color: #f5f4f8 !important;
 }
 
 .main-navigation .menu-left li a:hover {
@@ -1166,10 +1166,12 @@ a:hover {
     0% {
         scale: 1;
     }
+
     50% {
         scale: 1.25;
         background: maroon;
     }
+
     100% {
         scale: 1;
         background: var(--tertiaryGreen);
@@ -1414,7 +1416,7 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-table .pricing-option:hover {
-    border-top: 6px solid #97BC4E!important;
+    border-top: 6px solid #97BC4E !important;
     padding-top: 35px;
     cursor: pointer;
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
@@ -1453,7 +1455,7 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-list .pricing-option:hover {
-    border-top: 0px!important;
+    border-top: 0px !important;
     padding-top: 0px
 }
 
@@ -1462,7 +1464,7 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-list .pricing-option:hover .pricing-top {
-    background: #fb527a;
+    background: var(--tertiaryGreen);
 }
 
 .pricing {
@@ -1869,7 +1871,7 @@ ul.banner-tabs li:hover .card4 {
 }
 
 .no-padd {
-    padding-right: 0px!important;
+    padding-right: 0px !important;
 }
 
 .no-padd img {
@@ -1964,7 +1966,7 @@ ul.banner-tabs li:hover .card4 {
 }
 
 .forms input {
-    width: 100%!important;
+    width: 100% !important;
     height: 58px;
     padding: 6px 10px 6px 41px;
 }
@@ -2046,7 +2048,7 @@ ul.banner-tabs li:hover .card4 {
 }
 
 .carousel-indicators {
-    bottom: -50px!important;
+    bottom: -50px !important;
     margin-bottom: 0;
 }
 
@@ -2082,7 +2084,7 @@ ul.banner-tabs li:hover .card4 {
 .button-text-center .button7:hover {
     background-color: var(--tertiaryGreen);
     border-radius: 4px;
-    color: var(--bgPrimary)!important;
+    color: var(--bgPrimary) !important;
     font-weight: 600;
     transition: 0.4s;
 }
@@ -2100,7 +2102,7 @@ ul.banner-tabs li:hover .card4 {
     margin-bottom: 20px;
     font-size: 16px;
     border-radius: 4px;
-    color: #fff!important;
+    color: #fff !important;
     font-weight: 600;
     transition: 0.4s;
 }
@@ -2568,17 +2570,17 @@ two-phone1 img {
 }
 
 .dark-nav .navbar.scroll-nav {
-    background-color: #20082a!important
+    background-color: #20082a !important
 }
 
 .responsive4 .slick-dots li button:hover {
-    background-color: #42234f!important;
+    background-color: #42234f !important;
     border-radius: 50px;
     transition: 0.4s;
 }
 
 .responsive4 .slick-dots li button {
-    background-color: #270d31!important;
+    background-color: #270d31 !important;
     border-radius: 50px;
 }
 
@@ -2620,7 +2622,7 @@ two-phone1 img {
 }
 
 .responsive4 li.slick-active button {
-    background: #42234f!important
+    background: #42234f !important
 }
 
 .bottom-dark {
