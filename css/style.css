@@ -49,10 +49,10 @@ h4 {
 
 .navbar.scroll-nav {
     min-height: 35px;
-    padding-bottom: 0px!important;
-    padding-top: 0px!important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
     transition: all 0.3s ease;
-    background: var(--bgPrimary)!important;
+    background: var(--bgPrimary) !important;
     color: var(--pureWhite);
 }
 
@@ -162,7 +162,7 @@ iframe {
 }
 
 .navigation .menu-left {
-    display: inline-block!important;
+    display: inline-block !important;
 }
 
 .navigation .menu-left li a:hover {
@@ -204,7 +204,7 @@ iframe {
 .btn-pink {
     background-color: var(--bgPrimary);
     color: var(--pureWhite);
-    font-weight: 600!important;
+    font-weight: 600 !important;
     margin-right: 10px;
     font-size: 14px;
 }
@@ -212,7 +212,7 @@ iframe {
 .btn-blue {
     background-color: var(--secondaryGreen);
     color: var(--pureWhite);
-    font-weight: 600!important;
+    font-weight: 600 !important;
     font-size: 14px;
 }
 
@@ -265,7 +265,7 @@ a:hover {
 }
 
 .overlay img {
-    width: auto!important;
+    width: auto !important;
     margin: 209px 0px;
 }
 
@@ -278,7 +278,7 @@ a:hover {
 .overlay-image img {
     width: 100%;
     padding: 10px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .overlay-image:hover .overlay {
@@ -286,7 +286,7 @@ a:hover {
 }
 
 .overlay-image .overlay {
-    background: rgba(58, 49, 97, .75);
+    background: rgba(85, 255, 110, 0.75);
     border-radius: 4px;
     top: 10px;
     left: 10px;
@@ -319,7 +319,7 @@ a:hover {
 
 .buttons .btn-pink:hover,
 .buttons .btn-blue:hover {
-    color: #46356b!important;
+    color: #46356b !important;
 }
 
 .buttons .btn:hover {
@@ -412,7 +412,7 @@ a:hover {
 }
 
 .footer {
-    padding: 100px 0px
+    padding: 100px 0px;
 }
 
 .social {
@@ -500,8 +500,8 @@ a:hover {
 }
 
 .read {
-    background: #fb527a;
-    color: #fff;
+    background: var(--secondaryGreen);
+    color: var(--pureWhite);
     display: inline-block;
     padding: 10px 40px 0px;
     margin-top: 40px;
@@ -536,7 +536,7 @@ a:hover {
 .app-store p {
     font-size: 24px;
     float: right;
-    color: #fff;
+    color: var(--pureWhite);
     margin-top: 0px;
     line-height: 1;
 }
@@ -549,7 +549,7 @@ a:hover {
 }
 
 .purple .fa {
-    color: #fff!important;
+    color: #fff !important;
     margin-top: -5px;
     padding: 6px 10px;
     background: #ab9dec;
@@ -736,7 +736,7 @@ a:hover {
 }
 
 .quest-text1 img {
-    display: inline-block!important;
+    display: inline-block !important;
 }
 
 .responsive2 .slick-slide:focus {
@@ -785,41 +785,44 @@ a:hover {
 }
 
 .testimonial .slick-dots li button {
-    background-color: #d6d3df!important;
+    background-color: #d6d3df !important;
     border-radius: 50px;
 }
 
 .testimonial .slick-dots li button:hover {
-    background-color: #3a3161!important;
+    background-color: #3a3161 !important;
     border-radius: 50px;
     transition: 0.4s;
 }
 
 .testimonial li.slick-active button {
-    background-color: #3a3161!important;
+    background-color: #3a3161 !important;
     border-radius: 50px;
     transition: 0.4s;
 }
 
 .border-hr {
-    border-top: 1px solid #ddd!important;
+    border-top: 1px solid #ddd !important;
 }
 
 .slick-dots li button:before {
-    color: transparent!important;
+    color: transparent !important;
 }
 
 .footer-text p {
-    color: #8671a7;
+    color: var(--pureWhite);
 }
 
 .footer-text a {
-    color: #fff;
+    color: var(--bgPrimary);
     text-decoration: none;
+    font-weight: bold;
+    transition: all .2s ease;
 }
 
 .footer-text a:hover {
-    color: #8671a7;
+    color: var(--tertiaryGreen);
+    letter-spacing: 2px;
 }
 
 .footer-copyright {
@@ -879,7 +882,7 @@ a:hover {
 }
 
 .about-box:hover h4 {
-    color: #fb527a
+    color: var(--bgPrimary);
 }
 
 .about {
@@ -889,7 +892,7 @@ a:hover {
 .history {
     padding-top: 110px;
     padding-bottom: 110px;
-    background: #f5f4f8
+    background: #f5f4f8;
 }
 
 .team {
@@ -899,7 +902,7 @@ a:hover {
 
 .team-border {
     border-right: 1px solid #ddd;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .about-overlay {
@@ -923,8 +926,17 @@ a:hover {
 }
 
 .team-member img {
-    width: 260px;
-    height: 260px
+    /* This fucker messes with the responsiveness
+       Who is responsible for this?!?!
+       I've spent three days trying to find this issue
+    
+       width: 260px;
+       height: 260px;
+
+    */
+
+    max-width: 260px;
+    max-height: 260px;
 }
 
 .team-member .main-3-section ul {
@@ -948,7 +960,7 @@ a:hover {
 }
 
 .main-navigation .navbar-custom {
-    background-color: #f5f4f8!important;
+    background-color: #f5f4f8 !important;
 }
 
 .main-navigation .menu-left li a:hover {
@@ -1001,19 +1013,19 @@ a:hover {
 }
 
 .nav-pagination1 ul li a {
-    color: #575a73;
+    color: var(--secondaryGreen);
     font-size: 16px;
     text-decoration: none;
 }
 
 .nav-pagination1 ul li {
-    color: #575a73;
+    color: var(--bgPrimary);
     font-size: 16px;
     text-decoration: none;
 }
 
 .nav-pagination1 ul li:nth-child(2) {
-    margin: 0px 5px
+    margin: 0px 5px;
 }
 
 .hraing {
@@ -1154,10 +1166,12 @@ a:hover {
     0% {
         scale: 1;
     }
+
     50% {
         scale: 1.25;
         background: maroon;
     }
+
     100% {
         scale: 1;
         background: var(--tertiaryGreen);
@@ -1354,7 +1368,7 @@ MOD: TIMELINE SPLIT
 
 .main-3-section h5 {
     margin-top: 0px;
-    color: #3a3161;
+    color: var(--secondaryGreen);
     font-size: 16px
 }
 
@@ -1374,7 +1388,7 @@ MOD: TIMELINE SPLIT
 -------------------------------------*/
 
 .pricing-option:hover h1 {
-    color: #fb527a
+    color: var(--primaryGreen);
 }
 
 .hr {
@@ -1402,7 +1416,7 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-table .pricing-option:hover {
-    border-top: 6px solid #fb527a!important;
+    border-top: 6px solid #97BC4E !important;
     padding-top: 35px;
     cursor: pointer;
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
@@ -1410,8 +1424,8 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-option:hover .button {
-    background: #fb527a;
-    color: #fff
+    background: var(--tertiaryGreen);
+    color: var(--bgPrimary);
 }
 
 .pricing-table .pricing-option h1 {
@@ -1422,7 +1436,7 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-option ul li {
-    color: #3a3161;
+    color: #303030;
     font-size: 16px;
     line-height: 52px;
 }
@@ -1441,7 +1455,7 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-list .pricing-option:hover {
-    border-top: 0px!important;
+    border-top: 0px !important;
     padding-top: 0px
 }
 
@@ -1450,7 +1464,7 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-list .pricing-option:hover .pricing-top {
-    background: #fb527a
+    background: var(--tertiaryGreen);
 }
 
 .pricing {
@@ -1463,7 +1477,7 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-option p {
-    color: #3a3161;
+    color: #303030;
 }
 
 .pricing-option h4 {
@@ -1472,13 +1486,15 @@ MOD: TIMELINE SPLIT
 }
 
 .pricing-table {
-    color: #3a3161;
+    color: #303030;
 }
 
 .button {
-    background: #d3d4dc;
+    background: #279E44;
     color: #fff;
+    font-weight: bold;
     padding: 15px 30px;
+    transition: all .3s ease;
 }
 
 .pricing-option ul {
@@ -1651,7 +1667,7 @@ MOD: TIMELINE SPLIT
 }
 
 .feature-tab {
-    background: #20082a
+    background: #20082a;
 }
 
 .feature {
@@ -1663,7 +1679,7 @@ ul.banner-tabs {
     padding: 0;
     float: left;
     list-style: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #DDD;
     width: 100%;
 }
 
@@ -1671,7 +1687,7 @@ ul.banner-tabs li.active {
     padding-bottom: 22px;
     color: #3a3161;
     display: block;
-    border-bottom: 2px solid #fb527a;
+    border-bottom: 2px solid var(--primaryGreen);
 }
 
 .tab_container {
@@ -1683,7 +1699,7 @@ ul.banner-tabs li.active {
 
 ul.banner-tabs li:hover {
     padding-bottom: 22px;
-    border-bottom: 2px solid #fb527a;
+    border-bottom: 2px solid var(--tertiaryGreen);
 }
 
 .tab_content {
@@ -1715,10 +1731,10 @@ ul.banner-tabs li {
     margin: 0px 46px;
     padding: 0px 10px;
     line-height: 31px;
-    color: #3a3161;
+    color: var(--secondaryGreen);
     overflow: hidden;
     position: relative;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .new-feature {
@@ -1855,7 +1871,7 @@ ul.banner-tabs li:hover .card4 {
 }
 
 .no-padd {
-    padding-right: 0px!important;
+    padding-right: 0px !important;
 }
 
 .no-padd img {
@@ -1950,7 +1966,7 @@ ul.banner-tabs li:hover .card4 {
 }
 
 .forms input {
-    width: 100%!important;
+    width: 100% !important;
     height: 58px;
     padding: 6px 10px 6px 41px;
 }
@@ -1969,11 +1985,11 @@ ul.banner-tabs li:hover .card4 {
 }
 
 .forms input:focus {
-    border-color: transparent
+    border-color: transparent;
 }
 
 .screenshot {
-    padding: 100px 0px
+    padding: 100px 0px;
 }
 
 .newsletter1 {
@@ -2000,29 +2016,30 @@ ul.banner-tabs li:hover .card4 {
 }
 
 #carousel-example-generic .carousel-control:hover {
-    color: #fb527a;
-    border: 2px solid #fb527a
+    color: #279E44;
+    border: 2px solid #303030;
 }
 
 #carousel-example-generic .carousel-control {
     background: none;
     text-shadow: none;
     opacity: 1;
-    color: #3a3161;
+    color: var(--bgPrimary);
     top: 50%;
     bottom: inherit;
     width: auto;
     padding: 4px 12px;
-    border: 2px solid;
+    border: 2px solid var(--secondaryGreen);
     border-radius: 50%;
+    transition: all .3s ease;
 }
 
 #carousel-example-generic .carousel-control .fa {
-    font-size: 16px
+    font-size: 16px;
 }
 
 .carousel-indicators .active {
-    background: #3a3161
+    background: var(--primaryGreen);
 }
 
 .carousel-indicators li {
@@ -2031,7 +2048,7 @@ ul.banner-tabs li:hover .card4 {
 }
 
 .carousel-indicators {
-    bottom: -50px!important;
+    bottom: -50px !important;
     margin-bottom: 0;
 }
 
@@ -2050,7 +2067,7 @@ ul.banner-tabs li:hover .card4 {
 
 .getone h1 {
     font-size: 40px;
-    color: #3f3164;
+    color: #279E44;
 }
 
 .getone h5 {
@@ -2067,7 +2084,7 @@ ul.banner-tabs li:hover .card4 {
 .button-text-center .button7:hover {
     background-color: var(--tertiaryGreen);
     border-radius: 4px;
-    color: var(--bgPrimary)!important;
+    color: var(--bgPrimary) !important;
     font-weight: 600;
     transition: 0.4s;
 }
@@ -2085,7 +2102,7 @@ ul.banner-tabs li:hover .card4 {
     margin-bottom: 20px;
     font-size: 16px;
     border-radius: 4px;
-    color: #fff!important;
+    color: #fff !important;
     font-weight: 600;
     transition: 0.4s;
 }
@@ -2131,7 +2148,7 @@ ul.banner-tabs li:hover .card4 {
 }
 
 .footer-div1 h5 {
-    color: #3a3161;
+    color: #303030;
     font-size: 16px;
     font-weight: bold;
 }
@@ -2147,10 +2164,13 @@ ul.banner-tabs li:hover .card4 {
     color: #575a73;
     font-size: 15px;
     text-decoration: none;
+    transition: all .3s ease;
 }
 
 .footer-div1 ul li a:hover {
-    color: #fb527a
+    color: var(--secondaryGreen);
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 .unoorder ul {
@@ -2158,7 +2178,7 @@ ul.banner-tabs li:hover .card4 {
 }
 
 .unoorder h5 {
-    color: #3a3161;
+    color: #303030;
     font-size: 16px;
     font-weight: bold;
 }
@@ -2178,23 +2198,28 @@ ul.banner-tabs li:hover .card4 {
     font-size: 15px;
 }
 
-.bottom-footer3 p a {
-    color: #575a73;
+.bottom-footer3 p a,
+.direct-link {
+    color: #279E44;
+    font-weight: 500;
+    transition: all 0.4s ease;
 }
 
 .bottom-footer4 p a:hover {
-    color: #fb527a;
+    color: #303030;
     transition: 0.4s;
 }
 
-.bottom-footer3 p a:hover {
-    color: #fb527a;
-    transition: 0.4s;
+.bottom-footer3 p a:hover,
+.direct-link:hover {
+    color: #303030;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .bottom-footer4 p {
     padding: 0px;
-    color: #575a73;
+    color: #303030;
     font-weight: 500;
     font-size: 15px;
 }
@@ -2545,17 +2570,17 @@ two-phone1 img {
 }
 
 .dark-nav .navbar.scroll-nav {
-    background-color: #20082a!important
+    background-color: #20082a !important
 }
 
 .responsive4 .slick-dots li button:hover {
-    background-color: #42234f!important;
+    background-color: #42234f !important;
     border-radius: 50px;
     transition: 0.4s;
 }
 
 .responsive4 .slick-dots li button {
-    background-color: #270d31!important;
+    background-color: #270d31 !important;
     border-radius: 50px;
 }
 
@@ -2597,7 +2622,7 @@ two-phone1 img {
 }
 
 .responsive4 li.slick-active button {
-    background: #42234f!important
+    background: #42234f !important
 }
 
 .bottom-dark {
