@@ -37,6 +37,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-display: swap;
     background-color: #fdfcff;
     overflow-x: hidden
 }
@@ -934,7 +935,6 @@ a:hover {
        height: 260px;
 
     */
-
     max-width: 260px;
     max-height: 260px;
 }
@@ -1166,12 +1166,10 @@ a:hover {
     0% {
         scale: 1;
     }
-
     50% {
         scale: 1.25;
         background: maroon;
     }
-
     100% {
         scale: 1;
         background: var(--tertiaryGreen);
