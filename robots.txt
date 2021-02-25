@@ -1,6 +1,2 @@
 Sitemap: https://investit-academy.de/sitemap.xml
 User-agent: *
-Disallow: /impressum
-Disallow: /impressum.html
-Disallow: /privacy
-Disallow: /privacy.html
