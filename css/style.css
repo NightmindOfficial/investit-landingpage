@@ -1930,11 +1930,19 @@ ul.banner-tabs li:hover .card4 {
     padding-top: 35px;
 }
 
-.newsletter {
+.webp .newsletter {
+    padding: 100px 0px;
+    background: url(../image/newsletter.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.no-webp .newsletter,
+.no-js .newsletter {
     padding: 100px 0px;
     background: url(../image/newsletter.png);
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .newsletter .heading h3 {
