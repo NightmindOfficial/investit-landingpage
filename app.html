@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="no-js">
 
 <head>
     <title>Mobile App - Invest it!</title>
@@ -33,7 +33,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/"><img src="image/logo.png" alt="Das Logo von Invest it!" style="height: 46px; width: 190px;"></a>
+                    <a class="navbar-brand" href="/">
+                        <picture>
+                            <source srcset="image/logo.webp" type="image/webp">
+                            <img src="image/logo.png" alt="Logo von Invest it!" style="height: 46px; width: 190px;">
+                        </picture>
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav menu-left">
@@ -392,6 +397,10 @@
         </div>
     </footer>
     <!--end copyright-->
+    <!-- Javascript Detection -->
+    <script>
+        document.documentElement.classList.remove("no-js");
+    </script>
     <!--jQuery-->
     <script src="js/jquery.js"></script>
     <!--Bootstrap-->

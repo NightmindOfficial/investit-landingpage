@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="no-js">
 
 <head>
     <title>Impressum - Invest it!</title>
@@ -127,7 +127,10 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="footer-logo-text">
-                        <img src="image/logo.png" alt="Das Logo von Invest it!" style="height: 46px; width: 190px;">
+                        <picture>
+                            <source srcset="image/logo.webp" type="image/webp">
+                            <img src="image/logo.png" alt="Logo von Invest it!" style="height: 46px; width: 190px;">
+                        </picture>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
@@ -154,6 +157,10 @@
             </div>
         </div>
     </footer>
+    <!-- Javascript Detection -->
+    <script>
+        document.documentElement.classList.remove("no-js");
+    </script>
     <!--jQuery-->
     <script src="js/jquery.js"></script>
     <!--Bootstrap-->

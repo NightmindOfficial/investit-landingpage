@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="no-js">
 
 <head>
     <title>Invest it! - Freie Finanzbildung für alle!</title>
@@ -31,7 +31,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/"><img src="image/logo.png" alt="Logo von Invest it!" style="height: 46px; width: 190px;"></a>
+                    <a class="navbar-brand" href="/">
+                        <picture>
+                            <source srcset="image/logo.webp" type="image/webp">
+                            <img src="image/logo.png" alt="Logo von Invest it!" style="height: 46px; width: 190px;">
+                        </picture>
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav menu-left">
@@ -76,7 +81,10 @@
                 </div>
                 <div class="col-md-6 col-sm-6 no-padd">
                     <div class=" wow animated zoomIn">
-                        <img src="image/web-app.png" class="img-responsive" alt="Großer Bildausschnitt, auf dem die Kursübersicht der Invest it! Plattform beispielhaft dargestellt wird.">
+                        <picture>
+                            <!-- <source srcset="image/web-app.webp" type="image/webp"> -->
+                            <img src="image/web-app.png" class="img-responsive" alt="Großer Bildausschnitt, auf dem die Kursübersicht der Invest it! Plattform beispielhaft dargestellt wird.">
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -257,7 +265,10 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="image/screenshot4.png" class="img-responsive" alt="Werbebild, das einen Ausschnitt aus den verschiedenen Mockups der Seite zeigt">
+                                <picture>
+                                    <source srcset="image/screenshot4.webp" type="image/webp">
+                                    <img src="image/screenshot4.png" class="img-responsive" alt="Werbebild, das einen Ausschnitt aus den verschiedenen Mockups der Seite zeigt">
+                                </picture>
                                 <div class="carousel-caption">
                                 </div>
                             </div>
@@ -633,6 +644,10 @@
             </div>
         </div>
     </section>
+    <!-- Javascript Detection -->
+    <script>
+        document.documentElement.classList.remove("no-js");
+    </script>
     <!--jQuery-->
     <script src="js/jquery.js"></script>
     <!--Bootstrap-->
@@ -645,6 +660,7 @@
     <script src="js/custom.js"></script>
     <!--Google Recaptcha API -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </body>
 
 </html>
