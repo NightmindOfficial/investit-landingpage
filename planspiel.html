@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de" class="no-js">
 
 <head>
     <title>Sooper</title>
@@ -28,7 +28,12 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="logo" style="height: 46px; width: 190px;"></a>
+                        <a class="navbar-brand" href="/">
+                            <picture>
+                                <source srcset="image/logo.webp" type="image/webp">
+                                <img src="image/logo.png" alt="Logo von Invest it!" style="height: 46px; width: 190px;">
+                            </picture>
+                        </a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav menu-left">
@@ -36,7 +41,7 @@
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plattform
                                     <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="index.html">Web App</a></li>
+                                    <li><a href="/">Web App</a></li>
                                     <li><a href="app.html">Mobile App</a></li>
                                     <!-- <li><a href="desktop.html">Desktop</a></li> -->
                                     <!-- <li><a href="planspiel.html">Planspiel</a></li> -->
@@ -280,7 +285,7 @@
                             <h3>Subscribe to our newsletter</h3>
                             <p>Join our mailing list and get daily our new software updates</p>
                         </div>
-                        <form class="form-inline forms text-center" action="index.html">
+                        <form class="form-inline forms text-center" action="/">
                             <div class="form-group">
                                 <input type="email" placeholder="Enter your email address" size="32" class="form-control wow animated slideInLeft" id="email">
                             </div>
@@ -349,6 +354,10 @@
             </div>
         </div>
     </section>
+    <!-- Javascript Detection -->
+    <script>
+        document.documentElement.classList.remove("no-js");
+    </script>
     <!--jQuery-->
     <script src="js/jquery.js"></script>
     <!--Bootstrap-->
@@ -359,6 +368,8 @@
     <script src="js/slick.js"></script>
     <!--Custom js-->
     <script src="js/custom.js"></script>
+    <!-- Modernizr -->
+    <script src="js/modernizr-custom.js"></script>
     <script>
         'use strict';
         $(".tab_content").hide();

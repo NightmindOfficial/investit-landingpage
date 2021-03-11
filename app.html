@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="de-DE">
+<html lang="de" class="no-js">
 
 <head>
-    <title>Invest it! - Mobile App</title>
+    <title>Mobile App - Invest it!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon-->
+    <meta name="description" content="Damit steckst du sie alle in die Tasche: Mit der Invest it! App hast du jederzeit und von überall Zugriff auf alle Lernvideos. Und das alles mit einem Tap. Hol dir die App jetzt!">
+    <meta name="page-topic" content="Bildung">
+    <meta http-equiv="content-language" content="de">
+
+    <link rel="canonical" href="https://investit-academy.de/app">
     <link rel="icon" type="image/png" sizes="32x32" href="image/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="css/style.css" rel="stylesheet">
@@ -29,7 +33,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="Das Logo von Invest it!" style="height: 46px; width: 190px;"></a>
+                    <a class="navbar-brand" href="/">
+                        <picture>
+                            <source srcset="image/logo.webp" type="image/webp">
+                            <img src="image/logo.png" alt="Logo von Invest it!" style="height: 46px; width: 190px;">
+                        </picture>
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav menu-left">
@@ -37,7 +46,7 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plattform
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="index.html">Web App</a></li>
+                                <li><a href="/">Web App</a></li>
                                 <li><a href="app.html">Mobile App</a></li>
                                 <!-- <li><a href="desktop.html">Desktop</a></li> -->
                                 <!-- <li><a href="planspiel.html">Planspiel</a></li> -->
@@ -164,7 +173,7 @@
 
                         <div class="overlay">
                             <a href="javascript:void(0)" class="video-img" data-video="image/trailer.mp4" title="play-icon">
-                                <img src="image/play.png" alt="play"></a>
+                                <img src="image/play.png" alt="Abspielzeichen"></a>
                         </div>
                     </div>
                 </div>
@@ -185,14 +194,14 @@
                 <div class="col-md-6">
                     <div class="work-text wow animated slideInLeft">
                         <img src="image/work2.png" class="img-responsive" alt="Abstrahiertes Bild eines App Stores, in dem die App heruntergeladen werden kann.">
-                        <h4><img src="image/download.png" alt="download"> Lade die App herunter</h4>
+                        <h4><img src="image/download.png" alt="Download-Icon"> Lade die App herunter</h4>
                         <p>Die Invest it! App gibt es im App Store und im Google Play store kostenlos. Es sind keine weiteren Anforderungen vorhanden - lade dir die App einfach herunter und fang an!</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="work-text wow animated slideInRight">
                         <img src="image/work1.png" class="img-responsive" alt="Abstrahiertes Bild, welches die Struktur einer Anmeldeseite zeigt.">
-                        <h4><img src="image/check.png" alt="check">Erstelle einen Account</h4>
+                        <h4><img src="image/check.png" alt="Häkchen-Icon">Erstelle einen Account</h4>
                         <p>Sobald du deinen eigenen Account bei Invest it! hast, kannst du alle unsere Angebote nutzen! Nicht nur die App, auch die Web-Version sowie unsere PC-Programme sind für dich verfügbar.
                         </p>
                     </div>
@@ -374,7 +383,10 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-5">
                         <div class="footer-logo wow animated slideInLeft">
-                            <img src="image/logo-footer.png" alt="footer-logo" style="width: 251px; height: 40px;">
+                            <picture>
+                                <source srcset="image/logo-footer.webp" type="image/webp">
+                                <img src="image/logo-footer.png" alt="Das Invest it! - Logo" style="height: 40px; width: 251px;">
+                            </picture>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-7">
@@ -388,6 +400,10 @@
         </div>
     </footer>
     <!--end copyright-->
+    <!-- Javascript Detection -->
+    <script>
+        document.documentElement.classList.remove("no-js");
+    </script>
     <!--jQuery-->
     <script src="js/jquery.js"></script>
     <!--Bootstrap-->
@@ -398,6 +414,8 @@
     <script src="js/slick.js"></script>
     <!--Custom js-->
     <script src="js/custom.js"></script>
+    <!-- Modernizr -->
+    <script src="js/modernizr-custom.js"></script>
 </body>
 
 </html>

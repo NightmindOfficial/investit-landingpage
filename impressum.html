@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de" class="no-js">
 
 <head>
-    <title>Invest it! - Impressum</title>
+    <title>Impressum - Invest it!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon-->
+    <meta name="robots" content="noindex">
+    <meta name="page-topic" content="Bildung">
+    <meta http-equiv="content-language" content="de">
+
+    <link rel="canonical" href="https://investit-academy.de/impressum">
     <link rel="icon" type="image/png" sizes="32x32" href="image/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="css/style.css" rel="stylesheet">
@@ -27,7 +31,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="image/logo-footer.png" alt="Logo von Invest it!" style="width: 251px; height: 40px;"></a>
+                    <a class="navbar-brand" href="/">
+                        <picture>
+                            <source srcset="image/logo-footer.webp" type="image/webp">
+                            <img src="image/logo-footer.png" alt="Das Invest it! - Logo" style="height: 40px; width: 251px;">
+                        </picture>
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav menu-left">
@@ -35,7 +44,7 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plattform
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="index.html">Web App</a></li>
+                                <li><a href="/">Web App</a></li>
                                 <li><a href="app.html">Mobile App</a></li>
                                 <!-- <li><a href="desktop.html">Desktop</a></li> -->
                                 <!-- <li><a href="planspiel.html">Planspiel</a></li> -->
@@ -63,7 +72,7 @@
                     </div>
                     <div class="col-md-6  col-sm-6 text-right nav-pagination1">
                         <ul>
-                            <li><a href="index.html">Start</a></li>
+                            <li><a href="/">Start</a></li>
                             <li> -
                                 <li>
                                     <li>Impressum</li>
@@ -123,7 +132,10 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="footer-logo-text">
-                        <img src="image/logo.png" alt="footer-logo" style="height: 46px; width: 190px;">
+                        <picture>
+                            <source srcset="image/logo.webp" type="image/webp">
+                            <img src="image/logo.png" alt="Logo von Invest it!" style="height: 46px; width: 190px;">
+                        </picture>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
@@ -150,6 +162,10 @@
             </div>
         </div>
     </footer>
+    <!-- Javascript Detection -->
+    <script>
+        document.documentElement.classList.remove("no-js");
+    </script>
     <!--jQuery-->
     <script src="js/jquery.js"></script>
     <!--Bootstrap-->
@@ -160,6 +176,8 @@
     <script src="js/slick.js"></script>
     <!--Custom js-->
     <script src="js/custom.js"></script>
+    <!-- Modernizr -->
+    <script src="js/modernizr-custom.js"></script>
 </body>
 
 </html>

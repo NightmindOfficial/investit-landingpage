@@ -934,7 +934,6 @@ a:hover {
        height: 260px;
 
     */
-
     max-width: 260px;
     max-height: 260px;
 }
@@ -1166,12 +1165,10 @@ a:hover {
     0% {
         scale: 1;
     }
-
     50% {
         scale: 1.25;
         background: maroon;
     }
-
     100% {
         scale: 1;
         background: var(--tertiaryGreen);
@@ -1933,11 +1930,19 @@ ul.banner-tabs li:hover .card4 {
     padding-top: 35px;
 }
 
-.newsletter {
+.webp .newsletter {
+    padding: 100px 0px;
+    background: url(../image/newsletter.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.no-webp .newsletter,
+.no-js .newsletter {
     padding: 100px 0px;
     background: url(../image/newsletter.png);
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .newsletter .heading h3 {

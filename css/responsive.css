@@ -223,7 +223,7 @@
         margin-bottom: 10px
     }
     .navigation .navbar-toggle {
-        border: 1px solid #fb527a;
+        border: 1px solid #C1E695;
         margin-top: 25px;
     }
     .main-navigation .navbar-toggle {
@@ -354,7 +354,7 @@
         min-height: 35px;
         padding-bottom: 0px!important;
         transition: all 0.3s ease;
-        background: #20082a!important;
+        background: #202020!important;
         color: white;
     }
 }
